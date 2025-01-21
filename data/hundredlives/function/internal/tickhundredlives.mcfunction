@@ -30,6 +30,7 @@ clear @a minecraft:player_head[minecraft:lore=["revive"]]
 clear @a minecraft:leather_chestplate[minecraft:lore=["revive"]]
 clear @a minecraft:leather_leggings[minecraft:lore=["revive"]]
 clear @a minecraft:leather_boots[minecraft:lore=["revive"]]
+kill @e[type=item,predicate=hundredlives:revive_item]
 #do revive
 execute as @e[tag=revive,predicate=hundredlives:mainhand_life] at @s run function hundredlives:internal/dorevive with entity @s
 
