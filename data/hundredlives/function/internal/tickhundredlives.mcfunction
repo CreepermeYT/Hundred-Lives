@@ -35,7 +35,7 @@ kill @e[type=item,nbt={Item:{components:{"minecraft:lore":['"revive"']}}}]
 execute as @e[tag=revive,predicate=hundredlives:mainhand_life] at @s run function hundredlives:internal/dorevive with entity @s
 
 ##item and player particles
-execute as @e[type=item,nbt={Item:{id:"minecraft:nether_star",components:{"minecraft:lore": ['{"extra":[{"italic":true,"text":"Crouch/Sneak to use"}],"text":""}'], "minecraft:custom_name": '{"extra":[{"bold":true,"color":"aqua","italic":false,"text":"+1 Life"}],"text":""}'}}}] at @s run particle minecraft:wax_off ~ ~0.3 ~ 0 0 0 0.8 1 normal
+execute as @e[type=item,predicate=hundredlives:item_life] at @s run particle minecraft:wax_off ~ ~0.3 ~ 0 0 0 0.8 1 normal
 execute as @a[scores={lifeCount=100}] at @s run particle minecraft:ash ~ ~1.3 ~ 0.15 0.4 0.15 0 2 normal
 
 ##apply +1 life

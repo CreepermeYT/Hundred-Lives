@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "slots": {
-      "weapon.mainhand": {
+      "contents": {
         "items": "minecraft:nether_star",
         "components":{
 	  "minecraft:lore":["{\"extra\":[{\"italic\":true,\"text\":\"Crouch/Sneak to use\"}],\"text\":\"\"}"],

@@ -1,1 +1,1 @@
-item replace entity @s weapon.mainhand with nether_star[custom_name='["",{"text":"+1 Life","italic":false,"bold":true,"color":"aqua"}]',lore=['["",{"text":"Crouch/Sneak to use","italic":true}]']]
+item replace entity @s weapon.mainhand with nether_star[item_name='{"text":"+1 Life"}',custom_name='["",{"text":"+1 Life","italic":false,"bold":true,"color":"aqua"}]',lore=['["",{"text":"Crouch/Sneak to use","italic":true}]']]

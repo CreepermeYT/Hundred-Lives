@@ -10,7 +10,8 @@
     "id": "minecraft:nether_star",
     "components": {
       "minecraft:lore":["{\"extra\":[{\"italic\":true,\"text\":\"Crouch/Sneak to use\"}],\"text\":\"\"}"],
-      "minecraft:custom_name":"{\"extra\":[{\"color\":\"aqua\",\"italic\":false,\"bold\":true,\"text\":\"+1 Life\"}],\"text\":\"\"}"
+      "minecraft:custom_name":"{\"extra\":[{\"color\":\"aqua\",\"italic\":false,\"bold\":true,\"text\":\"+1 Life\"}],\"text\":\"\"}",
+      "minecraft:item_name":"{\"text\":\"+1 Life\"}"
     }
   }
 }
