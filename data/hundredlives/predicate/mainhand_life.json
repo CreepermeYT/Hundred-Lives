@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": "minecraft:nether_star",
+        "components":{
+	  "minecraft:lore":["{\"extra\":[{\"italic\":true,\"text\":\"Crouch/Sneak to use\"}],\"text\":\"\"}"],
+          "minecraft:custom_name":"{\"extra\":[{\"color\":\"aqua\",\"italic\":false,\"bold\":true,\"text\":\"+1 Life\"}],\"text\":\"\"}"
+	}
+      }
+    }
+  }
+}

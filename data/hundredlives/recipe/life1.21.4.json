@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:wither_rose",
+    "minecraft:nether_star",
+    "minecraft:golden_apple",
+    "minecraft:totem_of_undying"
+  ],
+  "result": {
+    "id": "minecraft:nether_star",
+    "components": {
+      "minecraft:lore":["{\"extra\":[{\"italic\":true,\"text\":\"Crouch/Sneak to use\"}],\"text\":\"\"}"],
+      "minecraft:custom_name":"{\"extra\":[{\"color\":\"aqua\",\"italic\":false,\"bold\":true,\"text\":\"+1 Life\"}],\"text\":\"\"}"
+    }
+  }
+}

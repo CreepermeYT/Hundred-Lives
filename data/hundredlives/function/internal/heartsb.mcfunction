@@ -1,0 +1,1 @@
+execute as @a[scores={lifeCount=0..100}] run attribute @s minecraft:generic.max_health base set 20

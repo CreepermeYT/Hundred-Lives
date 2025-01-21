@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "A New Life",
+    "description": "Crafted a +1 Life item",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "hundredlives:life"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

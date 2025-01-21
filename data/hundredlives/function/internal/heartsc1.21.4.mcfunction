@@ -1,0 +1,11 @@
+execute as @a[scores={lifeCount=0..90}] run attribute @s minecraft:max_health base set 20
+execute as @a[scores={lifeCount=91}] run attribute @s minecraft:max_health base set 22
+execute as @a[scores={lifeCount=92}] run attribute @s minecraft:max_health base set 24
+execute as @a[scores={lifeCount=93}] run attribute @s minecraft:max_health base set 26
+execute as @a[scores={lifeCount=94}] run attribute @s minecraft:max_health base set 28
+execute as @a[scores={lifeCount=95}] run attribute @s minecraft:max_health base set 30
+execute as @a[scores={lifeCount=96}] run attribute @s minecraft:max_health base set 32
+execute as @a[scores={lifeCount=97}] run attribute @s minecraft:max_health base set 34
+execute as @a[scores={lifeCount=98}] run attribute @s minecraft:max_health base set 36
+execute as @a[scores={lifeCount=99}] run attribute @s minecraft:max_health base set 38
+execute as @a[scores={lifeCount=100}] run attribute @s minecraft:max_health base set 40

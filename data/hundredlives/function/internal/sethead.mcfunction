@@ -1,0 +1,1 @@
+$item replace entity @s armor.head with minecraft:player_head[minecraft:profile=$(CustomName),minecraft:lore=["revive"]]
