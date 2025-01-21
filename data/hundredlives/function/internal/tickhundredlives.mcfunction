@@ -21,16 +21,15 @@ execute if score mh hdelay matches 2 run function hundredlives:internal/heartsc1
 
 
 ##revive armorstand
-execute as @e[type=minecraft:armor_stand,tag=] at @s if data entity @s CustomName run summon minecraft:armor_stand ~ ~ ~ {ShowArms:1,Tags:["revive","newr"],Silent:1b}
+execute as @e[type=minecraft:armor_stand,tag=] at @s if data entity @s CustomName run summon minecraft:armor_stand ~ ~ ~ {ShowArms:1,Tags:["revive"],Silent:1b}
 execute as @e[type=minecraft:armor_stand,tag=] at @s if data entity @s CustomName run tp @e[type=armor_stand,distance=..0] @s
 execute as @e[tag=revive] at @s run data modify entity @s CustomName set string entity @e[type=minecraft:armor_stand,distance=..0,limit=1] CustomName
 execute as @e[type=minecraft:armor_stand,tag=] at @s if data entity @s CustomName run kill @s
-execute as @e[tag=newr] run function hundredlives:internal/givearmorstandarmor
+execute as @e[type=armor_stand,tag=revive] run function hundredlives:internal/givearmorstandarmor
 clear @a minecraft:player_head[minecraft:lore=["revive"]]
 clear @a minecraft:leather_chestplate[minecraft:lore=["revive"]]
 clear @a minecraft:leather_leggings[minecraft:lore=["revive"]]
 clear @a minecraft:leather_boots[minecraft:lore=["revive"]]
-kill @e[type=item,nbt={Item:{components:{"minecraft:lore":['"revive"']}}}]
 #do revive
 execute as @e[tag=revive,predicate=hundredlives:mainhand_life] at @s run function hundredlives:internal/dorevive with entity @s
 
